@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_TqO_UTRrEemV4Y5EjfZyYw" label="first_job" description="" language="java" technicalLabel="FIRST_JOB" creationDate="2019-02-19T22:48:19.811+0530" author="_TqO_UjRrEemV4Y5EjfZyYw" productVersion="Talend Data Integration-6.5.1.20180116_1512" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/svaraprasad91/talend&quot;,&quot;login&quot;:&quot;svaraprasad91&quot;,&quot;passwd&quot;:&quot;qeMTABgRwBaLrDn0vBJpOg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" bigData="false"/>
+  <TalendProperties:Project xmi:id="_TqO_UTRrEemV4Y5EjfZyYw" label="first_job" description="" language="java" technicalLabel="FIRST_JOB" creationDate="2019-02-19T22:48:19.811+0530" author="_TqO_UjRrEemV4Y5EjfZyYw" productVersion="Talend Data Integration-6.5.1.20180116_1512" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/svaraprasad91/talend&quot;,&quot;login&quot;:&quot;svaraprasad91&quot;,&quot;passwd&quot;:&quot;qeMTABgRwBaLrDn0vBJpOg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" bigData="false">
+    <migrationTask xmi:id="_T4EnADRrEemV4Y5EjfZyYw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnATRrEemV4Y5EjfZyYw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnAjRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnAzRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.RemoveBinFolderMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnBDRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.UpdateExistentMigrationTasksToAdaptNewMigrationSystemMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnBTRrEemV4Y5EjfZyYw" id="org.talend.designer.core.ui.preferences.migration.ChangeMysqlVersionForProjectSetting" breaks="5.2.0" version="5.1.3" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnBjRrEemV4Y5EjfZyYw" id="org.talend.designer.core.ui.preferences.migration.ChangeOracleVersionForProjectSetting" breaks="5.2.0" version="5.2.1" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnBzRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.RemoveRoutineJarDependencyTask" breaks="5.4.1" version="5.4.2" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnCDRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.ChangePostgresDbVersionForProjectSetting" breaks="5.4.1" version="5.4.2" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnCTRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.EncryptPasswordInProjectSettingsMigrationTask" breaks="5.4.1" version="5.4.3" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnCjRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.UnifyPasswordEncryption4ProjectSettingsMigrationTask" breaks="5.6.0" version="5.6.0" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnCzRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.ChangeComponentSettingNameMigrationTask" breaks="5.5.2" version="5.6.2" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnDDRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.RemoveRoutineAntlrJarDependencyTask" breaks="6.0.0" version="6.0.1" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnDTRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.RemoveProjectLibsFolder" breaks="6.0.0" version="6.0.1" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnDjRrEemV4Y5EjfZyYw" id="org.talend.designer.maven.ui.ConfigMavenRepositoryRemove" breaks="6.0.1" version="6.0.2" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnDzRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.ChangeMappingFileMigrationTask" breaks="6.2.1" version="6.2.2" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnEDRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.AddJavaVersionMigrationTask" breaks="6.3.1" version="6.4.0" status="noimpact"/>
+    <migrationTask xmi:id="_T4EnETRrEemV4Y5EjfZyYw" id="org.talend.repository.model.migration.AddProductValuesItemMigrationTask" breaks="6.5.0" version="6.5.0" status="noimpact"/>
+  </TalendProperties:Project>
   <TalendProperties:User xmi:id="_TqO_UjRrEemV4Y5EjfZyYw" login="security@company.com" firstName="security" lastName="security" type="DI" additionnalData="{}"/>
 </xmi:XMI>
